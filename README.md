@@ -4,13 +4,13 @@
 
 ## Objetivo
 
-El objetivo de este proyecto es entrenar una serie de modelos de clasificación, como Suport Vector Classifier, Desicion Tree Classifiery Random Forest Classifier, para predecir si un alumno se graduó de la universidad, abandonó la universidad, o se encuentra cursando actualmente. Para ello, se utilizará el dataset de [Predict students' dropout and academic success](https://www.kaggle.com/datasets/thedevastator/higher-education-predictors-of-student-retention) de Kaggle.
+El objetivo de este proyecto es entrenar una serie de modelos de clasificación, como Suport Vector Classifier, Desicion Tree Classifiery Random Forest Classifier, para predecir si un alumno se graduó de la universidad, abandonó la universidad, o se encuentra cursando actualmente. Para ello, se utilizará el dataset de [Predict students' dropout and academic success](https://marioteran56-students-academic-status-app-gkik16.streamlit.app/) de Kaggle.
 
-De esta manera, se crea un proyecto con Streamlit para que el usuario pueda ingresar los datos del estudiante para predecir su estado académico. Dicho proyecto se encuentra disponible en la siguiente liga de [Streamlit](https://marioteran56-students-dropout-app-xikrgl.streamlit.app/)
+De esta manera, se crea un proyecto con Streamlit para que el usuario pueda ingresar los datos del estudiante para predecir su estado académico. Dicho proyecto se encuentra disponible en la siguiente liga de [Streamlit](https://marioteran56-students-academic-status-app-gkik16.streamlit.app/)
 
 ## Requerimientos
 
-El proyecto est disponible en la liga de [Streamlit](https://marioteran56-students-dropout-app-xikrgl.streamlit.app/). No obstante, si se desea correr el proyecto en local, se requiere de los siguientes paquetes instalados dentro de nuestro entorno virtual:
+El proyecto est disponible en la liga de [Streamlit](https://marioteran56-students-academic-status-app-gkik16.streamlit.app/). No obstante, si se desea correr el proyecto en local, se requiere de los siguientes paquetes instalados dentro de nuestro entorno virtual:
 
 - streamlit
 - pandas
