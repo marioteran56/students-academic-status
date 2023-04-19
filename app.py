@@ -23,6 +23,7 @@ st.sidebar.text(f'✅ Accuracy: {model_results[0]}')
 st.sidebar.text(f'🎯 Precision: {model_results[1]}')
 st.sidebar.text(f'🔄 Recall: {model_results[2]}')
 st.sidebar.text(f'💯 F1 Score: {model_results[3]}')
+st.sidebar.text(f'📈 ROC AUC: {model_results[4]}')
 
 st.header('Datos del alumno')
 col1, col2 = st.beta_columns(2)
