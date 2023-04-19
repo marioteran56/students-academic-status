@@ -8,7 +8,7 @@ st.markdown('Se tienen multiples modelos entrenados para la predicción del exit
 
 # Slider en la página principal para seleccionar el modelo
 st.sidebar.header('Clasificadores')
-model = st.sidebar.selectbox('', ['Support Vector Classifier', 'Random Forest Classifier', 'Extra Trees Classifier'])
+model = st.sidebar.selectbox(['Support Vector Classifier', 'Random Forest Classifier', 'Extra Trees Classifier'])
 
 # Resultados del modelo seleccionado
 model_results = []
