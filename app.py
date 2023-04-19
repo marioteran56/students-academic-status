@@ -123,7 +123,7 @@ if st.button('Predecir el estado académico'):
     st.text(f'Se estima que el estudiante se encuentra en el estado académico: {target[result[0]]}')
 
 st.header('Conclusiones')
-st.markdown('Tras entrenar los modelos de clasificación, se obtuvieron los resultados muy similares. No obstante, no se logró obtener un modelo que pudiera predecir con una precisión mayor al 73%, siendo el de Suport Vector Machine el que obtuvo el mejor resultado.')
+st.markdown('Tras entrenar los modelos de clasificación, se obtuvieron los resultados muy similares. No obstante, no se logró obtener un modelo que pudiera predecir con una precisión mayor al 73%, siendo el de Suport Vector Machine el que obtuvo el mejor resultado. Por otro lado, podemos observar que nuestro ROC AUC Score es superior a las demás métricas, lo cual indica que el modelo es bueno en distinguir entre las clases positivas y negativas.')
 st.markdown('Tras analizar trabajos similares que se han realizado con este dataset, se pudo observar que la mayoría de los modelos que se han entrenado han obtenido resultados similares a los obtenidos en este trabajo. Esto se debe a que el dataset no es muy grande y se encuentran los datos un poco desbalanceados, lo que dificulta la predicción de los modelos.')
 st.markdown('Sin embargo, es posible obtener una mayor precisión en la predicción de los modelos si es que se elimina la clase de estudiantes que se encuentran cursando, ya que se puede considerar que son muy pocos los datos de esta clase.')
 st.markdown('A continuación, se proporciona un enlace a Kaggle donde se encuentra un ejemplo de un modelo que se entrenó con dichas modificaciones: https://www.kaggle.com/code/paulandrewpaglinawan/eda-and-prediction-of-student-academic-success')
