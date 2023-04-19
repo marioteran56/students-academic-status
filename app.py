@@ -20,7 +20,7 @@ elif model == 'Extra Trees Classifier':
     model_results = joblib.load('models/etc_clf_results.pkl')
     
 st.sidebar.text(f'Accuracy: {model_results[0]}')
-st.sidebar.text(f':ok_hand: Precision: {model_results[1]}')
+st.sidebar.text(f'👌 Precision: {model_results[1]}')
 st.sidebar.text(f'Recall: {model_results[2]}')
 st.sidebar.text(f'F1 Score: {model_results[3]}')
 
@@ -122,7 +122,7 @@ if st.button('Predecir el estado académico'):
     st.text(f'Se estima que el estudiante se encuentra en el estado académico: {target[result[0]]}')
 
 st.header('Conclusiones')
-st.text('Tras entrenar los modelos de clasificación, se obtuvieron los resultados muy similares. No obstante, no se logró obtener un modelo que pudiera predecir con una precisión mayor al 73%, siendo el de Suport Vector Machine el que obtuvo el mejor resultado.')
-st.text('Tras analizar trabajos similares que se han realizado con este dataset, se pudo observar que la mayoría de los modelos que se han entrenado han obtenido resultados similares a los obtenidos en este trabajo. Esto se debe a que el dataset no es muy grande y se encuentran los datos un poco desbalanceados, lo que dificulta la predicción de los modelos.')
-st.text('Sin embargo, es posible obtener una mayor precisión en la predicción de los modelos si es que se elimina la clase de estudiantes que se encuentran cursando, ya que se puede considerar que son muy pocos los datos de esta clase.')
-st.text('A continuación, se proporciona un enlace a Kaggle donde se encuentra un ejemplo de un modelo que se entrenó con dichas modificaciones: https://www.kaggle.com/code/paulandrewpaglinawan/eda-and-prediction-of-student-academic-success')
+st.markdown('Tras entrenar los modelos de clasificación, se obtuvieron los resultados muy similares. No obstante, no se logró obtener un modelo que pudiera predecir con una precisión mayor al 73%, siendo el de Suport Vector Machine el que obtuvo el mejor resultado.')
+st.markdown('Tras analizar trabajos similares que se han realizado con este dataset, se pudo observar que la mayoría de los modelos que se han entrenado han obtenido resultados similares a los obtenidos en este trabajo. Esto se debe a que el dataset no es muy grande y se encuentran los datos un poco desbalanceados, lo que dificulta la predicción de los modelos.')
+st.markdown('Sin embargo, es posible obtener una mayor precisión en la predicción de los modelos si es que se elimina la clase de estudiantes que se encuentran cursando, ya que se puede considerar que son muy pocos los datos de esta clase.')
+st.markdown('A continuación, se proporciona un enlace a Kaggle donde se encuentra un ejemplo de un modelo que se entrenó con dichas modificaciones: https://www.kaggle.com/code/paulandrewpaglinawan/eda-and-prediction-of-student-academic-success')
